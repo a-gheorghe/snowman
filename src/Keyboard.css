@@ -1,0 +1,45 @@
+.keyboard-container {
+  display: flex;
+}
+
+#keyboard, kbd {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: .2em solid grey;
+  text-align: center;
+}
+
+kbd {
+  flex: 1;
+  line-height: 3.2em;
+  height: 3.2em;
+  width: 3.2em;
+  margin: .25em;
+  text-align: center;
+  color: #fff;
+  background-color: grey;
+}
+
+#keyboard {
+  width: 80%;
+  /* margin-left: 42px; */
+  padding: .4em .4em .8em;
+  box-shadow: 0 .4em 0 grey;
+  flex: 1;
+  align-self: center;
+  justify-content: center;
+}
+
+#keyboard-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.keyboard-row {
+  display:flex;
+  width: 100%;
+  flex: 1;
+}
