@@ -28,7 +28,7 @@ class SnowMan extends Component {
       image = baseline
     }
     return (
-      <img src={image} />
+      <img src={image} alt="snowman" />
     );
   }
 }
