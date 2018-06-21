@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Keep the snowman from melting by guessing the letters of the word.
 
-<code>npm install
+<code>npm install<br/>
 npm run start</code>
 
 Go to localhost:3000 to play game!
